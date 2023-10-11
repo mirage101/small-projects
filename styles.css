@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    background: linear-gradient(90deg, rgba(166, 133, 189, 1) 0%, rgba(252, 176, 69, 1) 100%);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+}
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-weight: 400;
+}
+input {
+    padding: 12px 10px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.errorMessage {
+    color: red;
+    font-weight: 600;
+    margin: 10px;
+    display: none;
+}
+.btn {
+    text-transform: uppercase;
+    width: 250px;
+    height: 45px;
+    margin: 20px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+}
+.btn:hover {
+    color: aliceblue;
+    background-color: green;
+    cursor: pointer;
+    transition: background-color 0.7s ease-in-out;
+}
+.gallery img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 5px;
+}
+#searchInput {
+    padding: 11px 10px;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+}
+.control-input {
+    display: flex;
+}
